@@ -61,3 +61,25 @@ Prosjektet skal leveres **innen 12:00 på søndag**. Lag en tag med navnet "innl
 git tag innlevering
 git push --tags
 ```
+![alt text](image.png)
+![alt text](image-1.png)
+
+
+### Gruppenavn og Medlemmer
+- **Gruppenavn:** Kaffe Bataljonen
+- **Medlemmer:**
+  - Lukas
+  - August 
+  - Luwei
+  - Henrik
+
+### Idé og Implementasjon
+**Idé:**  
+Vi har laget et sjakkspill med en unik vri: spillere kan spille på flere brett samtidig, og vinneren er den som først får tre på rad i et Tic-Tac-Toe-mønster.
+
+**Implementasjon:**  
+Vi har brukt Java og Swing for å lage GUI-et. Prosjektet består av flere komponenter:
+- **MainGamePanel:** Hovedpanelet som styrer spillet.
+- **ChessBoardPanel:** Individuelle sjakkbrett.
+- **Timer:** Implementert for å holde styr på spillernes tid.
+Vi har også lagt til funksjonalitet for å vise vinnende linjer og bytte tur mellom spillere.
